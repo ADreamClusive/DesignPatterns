@@ -107,7 +107,7 @@
                                     }];
     }
 }
-//相较于将这些判断逻辑现在现在vc里，明显使用这种策略模式会优雅简洁的多
+//相较于将这些判断逻辑现在vc里，明显使用这种策略模式会优雅简洁的多
 #pragma mark - 验证算法
 - (NSString *)validateEmailInput:(UITextField *)input {
     

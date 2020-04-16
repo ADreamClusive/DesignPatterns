@@ -37,7 +37,6 @@
     
     CheatGamePadDecorator *cheatPamePad = [[CheatGamePadDecorator alloc] init];
     [cheatPamePad cheat];
-
 }
 
 - (void)testCategory {

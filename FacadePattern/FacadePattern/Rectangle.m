@@ -11,8 +11,7 @@
 @implementation Rectangle
 
 - (void)draw {
-    
-    // TODO
+    NSLog(@"%s", __FUNCTION__);
 }
 
 @end

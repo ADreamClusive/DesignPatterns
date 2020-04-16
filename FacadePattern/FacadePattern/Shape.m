@@ -11,7 +11,7 @@
 @implementation Shape
 
 - (void)draw {
-    
+    NSLog(@"%s", __FUNCTION__);
 }
 
 @end

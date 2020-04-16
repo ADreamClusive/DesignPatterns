@@ -11,8 +11,7 @@
 @implementation Circle
 
 - (void)draw {
-    
-    //TODO
+    NSLog(@"%s", __FUNCTION__);
 }
 
 @end

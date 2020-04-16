@@ -39,13 +39,13 @@
 /**
  解耦，简化操作
  */
-- (void)FacadePatternMethod {
+- (void)FacadePatternMethod
+{
     // 绘制一个圆的操作
     [ShapeMaker drawCircleWithParas:@{@"a" : @"b"}];
     
     // 绘制圆 + 矩形操作
     [ShapeMaker drawCircleAndRectangle:@{@"a" : @"b", @"c" : @"d"}];
-
 }
 
 @end
