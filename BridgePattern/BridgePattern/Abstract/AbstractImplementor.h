@@ -18,7 +18,6 @@ typedef NS_ENUM(NSUInteger, EcommandType) {
     
     KO,
     KX,
-
 };
 
 @interface AbstractImplementor : NSObject
